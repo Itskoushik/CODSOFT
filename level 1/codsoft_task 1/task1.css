@@ -172,7 +172,7 @@ nav ul li a:hover:after {
 .skills-list li p {
   margin-top: 10px;
 }
-/* About Section Styles */
+
 #about {
   background: #fff;
   padding: 50px 0;
@@ -195,7 +195,7 @@ nav ul li a:hover:after {
 .about-image img {
   max-width: 25%;
   max-height: 25%;
-  border-radius: 50%; /* Add a circular border for the image */
+  border-radius: 50%; 
   margin-bottom: 20px;
 }
 
@@ -206,7 +206,7 @@ nav ul li a:hover:after {
   text-align: center;
   max-width: 800px;
 }
-/* Projects Section Styles */
+
 #projects {
   background: #f5f5f5;
   padding: 50px 0;
@@ -248,7 +248,7 @@ nav ul li a:hover:after {
   margin: 0;
 }
 
-/* Footer Styles */
+
 footer {
     background: #1f1f25;
     color: #fff;
