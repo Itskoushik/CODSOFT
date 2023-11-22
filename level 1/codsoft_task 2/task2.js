@@ -5,7 +5,7 @@ const toggleSearch = (search, button) =>{
          searchButton = document.getElementById(button)
 
    searchButton.addEventListener('click', () =>{
-       // We add the show-search class, so that the search bar expands
+      
        searchBar.classList.toggle('show-search')
    })
 }
@@ -34,17 +34,17 @@ elems.forEach(function(elem) {
       const imageUrl = images[currentImageIndex];
       document.getElementById('imagediv').style.backgroundImage = `url(${imageUrl})`;
       gsap.to(h1s[index], {
-        top: "-=100%", // Updated this line
+        top: "-=100%", 
         ease: "expo.inOut",
         duration: 1,
         onComplete: function () {
-          gsap.set(this.target, { top: "100%" }); // Updated this line
+          gsap.set(this.target, { top: "100%" }); 
           animating = false;
         },
       });
       index === h1s.length - 1 ? (index = 0) : index++;
       gsap.to(h1s[index], {
-        top: "-=100%", // Updated this line
+        top: "-=100%", 
         ease: "expo.inOut",
         duration: 1,
       });
